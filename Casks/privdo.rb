@@ -1,9 +1,9 @@
 cask "privdo" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.17"
-  sha256 arm:   "0a8ed842ab2b5f4ed38be51d4f58b85dc43f8f24949b8c6b7c11de3fc1558b54",
-         intel: "d65a40503e02a7a10f79c5e6faa18fae8d0ecf99561e0766f73f73d703a961d7"
+  version "1.0.16"
+  sha256 arm:   "53a82565677bcfe7e49cbb75f991028310f9646e3718c6d7ce04e71a0229f2da",
+         intel: "dd90dd8699116e7c9eb8831a85069db58a52e51c665d9f4264cb04ee5f294842"
 
   url "https://github.com/chsafouane/privdo-private-todo-vault/releases/download/v#{version}/Privdo-#{version}-#{arch}.dmg"
   name "Privdo"
